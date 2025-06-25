@@ -1,21 +1,3 @@
-;; ================================================================================================
-;; DECENTRALIZED RESEARCH DATA COMMONS
-;; ================================================================================================
-;;
-;; A comprehensive platform for sharing scientific datasets with proper attribution,
-;; usage tracking, data quality assessment, and researcher collaboration tools.
-;;
-;; This project consists of two main contracts:
-;; 1. research-data-registry.clar - Core dataset management and quality assessment
-;; 2. citation-tracker.clar - Citation management and usage tracking
-;;
-;; ================================================================================================
-
-;; ================================================================================================
-;; CONTRACT 1: RESEARCH DATA REGISTRY
-;; File: contracts/research-data-registry.clar
-;; ================================================================================================
-
 ;; Error constants
 (define-constant ERR-NOT-AUTHORIZED (err u100))
 (define-constant ERR-DATASET-NOT-FOUND (err u101))
